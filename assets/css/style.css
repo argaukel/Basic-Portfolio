@@ -1,0 +1,16 @@
+*, *::after, *::before {
+    box-sizing: border-box;
+  }
+
+header {
+    background-color:#ffffff;
+    height: 100px;
+    padding: 10px;
+    border: 1px solid #cccccc;
+    text-align: right
+  } 
+
+body {
+    background-color: gray;
+}
+
