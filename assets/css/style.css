@@ -2,15 +2,34 @@
     box-sizing: border-box;
   }
 
+
 header {
-    background-color:#ffffff;
-    height: 100px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #ffffff;
+    height: 80px;
     padding: 10px;
     border: 1px solid #cccccc;
-    text-align: right
-  } 
+    text-align: right;
+    margin-top: -20px;
+    margin-right: -20px;
+    margin-left: -20px;
+    
+    } 
+
+.logo {
+    position: absolute;
+    background-color:teal;
+    height: 70px;
+    margin-top: 0;
+    margin-left: 20px;
+    padding: 10px;
+    float: left;
+
+}
 
 body {
+    clear: both;
     background-color: gray;
-}
+    }
+    
 
