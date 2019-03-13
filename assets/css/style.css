@@ -2,6 +2,14 @@
     box-sizing: border-box;
   }
 
+body {
+      background-image: url("images/light-grey-terrazzo.png");
+      /* background-size: cover; */
+      /* for portfolio page */
+      background-repeat: repeat;
+      background-color: darkgray;
+      font-family: Arial, Helvetica, sans-serif;
+  }
 
 header {
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -30,9 +38,7 @@ header {
     float: left;
 }
 
-body {
-    font-family: Arial, Helvetica, sans-serif;
-    }
+
 /* .clearfix::after {
         content: " ";
         display: block;
@@ -89,6 +95,18 @@ aside {
   text-decoration-color: white;
   background: gray;
   border: 1px solid #eee;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  height: 80px;
+  width: 100%;
+  border: 1px solid #cccccc;
+  background-color: #ffffff;
+  color: gray;
+  text-align: center;
 }
 
 
