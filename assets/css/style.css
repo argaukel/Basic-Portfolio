@@ -3,7 +3,6 @@
   }
 /* header div - applies to only divs inside the header */
 
-
 body {
       background-image: url("images/light-grey-terrazzo.png");
       /* background-size: cover; */
@@ -30,11 +29,6 @@ header {
     
     }
     
-/* header div {
-  width: 960px;
-  margin: 0 auto;
-}     */
-
 .logo {
     position: fixed;
     top: 0%;
@@ -64,11 +58,6 @@ nav a {
   padding-left: 10px;
 }
 
-/* .clearfix::after {
-        content: " ";
-        display: block;
-        } */
-
 main {
     
 }
@@ -89,48 +78,36 @@ main {
 .title {
     background-color: snow;
     padding-left: 25px;
-    /* position: absolute; */
-    /* float: left; */
+     /* position: absolute;  */
+     /* float: left;  */
     width: 960px;
     border-bottom: 3px solid gray;
     margin-bottom: 20px;
 }  
 
-.text {
-    /* float: left; */
-   /* position: relative; */
-   /* margin-top: 10%;
-   margin-left: 150px; */
-/*     height: 120px;
-   width: 120px; */
-   /* background-color:green; */
-}    
+    
 
 img {
   float: left;
-  height: 230px;
-  width: 200px;
+  height: 30%;
+  width: 30%;
   margin: 10px;
+  margin-top: 0;
   background-color: #gray;
 }
 
-#photos {
-  /* Prevent vertical gaps */
-  /* source: https://css-tricks.com/seamless-responsive-photo-grid/ */
-  line-height: 5;
-   
-  -webkit-column-count: 5;
-  -webkit-column-gap:   5px;
-  -moz-column-count:    5;
-  -moz-column-gap:      5px;
-  column-count:         5;
-  column-gap:           5px;  
+.teaser {
+  position: relative;
 }
 
-#photos img {
-  /* Just in case there are inline attributes */
-  width: 100% !important;
-  height: auto !important;
+.text-block {
+  position: absolute;
+  /* bottom: 20px;
+  right: 20px; */
+  background-color: black;
+  /* color: white;
+  padding-left: 20px;
+  padding-right: 20px; */
 }
 
 footer {
@@ -144,6 +121,35 @@ footer {
   color: gray;
   text-align: center;
 }
+
+
+_#photos {
+  /* Prevent vertical gaps */
+  /* source: https://css-tricks.com/seamless-responsive-photo-grid/ */
+  line-height: 5;
+   
+  -webkit-column-count: 5;
+  -webkit-column-gap:   5px;
+  -moz-column-count:    5;
+  -moz-column-gap:      5px;
+  column-count:         5;
+  column-gap:           5px;  
+}
+
+_#photos img {
+  /* Just in case there are inline attributes */
+  width: 100% !important;
+  height: auto !important;
+  position: absolute;
+}
+
+_.container {
+  /* w33 */
+  position: relative;
+}
+
+/* Bottom right text */
+
 
 _aside {
     /* float: left;
@@ -164,3 +170,22 @@ _aside {
   border: 1px solid #eee;
 }
 
+/* .clearfix::after {
+        content: " ";
+        display: block;
+        } */
+        
+/* header div {
+  width: 960px;
+  margin: 0 auto;
+}     */
+
+.text {
+    /* float: left; */
+   /* position: relative; */
+   /* margin-top: 10%;
+   margin-left: 150px; */
+/*     height: 120px;
+   width: 120px; */
+   /* background-color:green; */
+}
