@@ -1,6 +1,8 @@
 *, *::after, *::before {
     box-sizing: border-box;
   }
+/* header div - applies to only divs inside the header */
+
 
 body {
       background-image: url("images/light-grey-terrazzo.png");
@@ -9,6 +11,8 @@ body {
       background-repeat: repeat;
       background-color: darkgray;
       font-family: Arial, Helvetica, sans-serif;
+      margin: 0%;
+      padding: 0%;
   }
 
 header {
@@ -19,25 +23,46 @@ header {
     padding-right: 16%;
     border: 1px solid #cccccc;
     text-align: right;
-    margin-top: -20px;
-    margin-right: -20px;
-    margin-left: -20px;
+    /* margin-top: -20px; */
+    margin-right: 0%;
+    margin-left: 0%;
+    width: 100%;
     
-    } 
+    }
+    
+/* header div {
+  width: 960px;
+  margin: 0 auto;
+}     */
 
 .logo {
-    position: absolute;
+    position: fixed;
+    top: 0%;
+    padding: 10px;
+    padding-top: 15px;
+    float: left;
+    margin-left: 15%;
     background-color:teal;
     color: white;
-    height: 70px;
-    margin-top: 0;
-    margin-left: 15%;
-    padding-left: 10px;
-    padding-right: 10px;
-    /* padding: 10px; */
-    float: left;
+    height: 80px;
+    font-size: 36px;
+  /* position: absolute; */
+    /* margin-top: 0; */
+    /* padding-left: 10px;
+    padding-right: 10px; */
+    /* a whole new section w/ both <div> h1 logo and <div>nav elements */
 }
 
+nav {
+  margin-top: 10px;
+  font-size: 24px;
+  
+}
+
+nav a {
+  text-decoration: none;
+  padding-left: 10px;
+}
 
 /* .clearfix::after {
         content: " ";
@@ -51,10 +76,10 @@ main {
 #full {
         clear: both;
         overflow: auto;
-        background-color:rosybrown;
+        background-color: snow;
         position: relative;
         width: 960px;
-        height: 450px;
+        height: auto;
         margin: auto;
         margin-top: 20px;
         /* padding-left: 20px; */
@@ -62,23 +87,65 @@ main {
         }      
 
 .title {
-    background-color: blue;
+    background-color: snow;
+    padding-left: 25px;
     /* position: absolute; */
-    float: left;
+    /* float: left; */
     width: 960px;
+    border-bottom: 3px solid gray;
+    margin-bottom: 20px;
 }  
 
 .text {
     /* float: left; */
    /* position: relative; */
-   margin-top: 10%;
-   margin-left: 150px;
+   /* margin-top: 10%;
+   margin-left: 150px; */
 /*     height: 120px;
    width: 120px; */
    /* background-color:green; */
 }    
 
-aside {
+img {
+  float: left;
+  height: 230px;
+  width: 200px;
+  margin: 10px;
+  background-color: #gray;
+}
+
+#photos {
+  /* Prevent vertical gaps */
+  /* source: https://css-tricks.com/seamless-responsive-photo-grid/ */
+  line-height: 5;
+   
+  -webkit-column-count: 5;
+  -webkit-column-gap:   5px;
+  -moz-column-count:    5;
+  -moz-column-gap:      5px;
+  column-count:         5;
+  column-gap:           5px;  
+}
+
+#photos img {
+  /* Just in case there are inline attributes */
+  width: 100% !important;
+  height: auto !important;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  height: 80px;
+  width: 100%;
+  border: 1px solid #cccccc;
+  background-color: #ffffff;
+  color: gray;
+  text-align: center;
+}
+
+_aside {
     /* float: left;
     /* position: absolute;  */
     margin-top: 10px;
@@ -96,18 +163,4 @@ aside {
   background: gray;
   border: 1px solid #eee;
 }
-
-footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  height: 80px;
-  width: 100%;
-  border: 1px solid #cccccc;
-  background-color: #ffffff;
-  color: gray;
-  text-align: center;
-}
-
-
 
