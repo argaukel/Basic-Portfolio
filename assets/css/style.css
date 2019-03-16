@@ -20,17 +20,18 @@ header {
     height: 80px;
     padding: 10px;
     padding-right: 16%;
-    border: 1px solid #cccccc;
+    border-bottom: 1px solid #cccccc;
     text-align: right;
     /* margin-top: -20px; */
     margin-right: 0%;
     margin-left: 0%;
     width: 100%;
+    position: relative;
     
     }
     
 .logo {
-    position: fixed;
+    position: absolute;
     top: 0%;
     padding: 10px;
     padding-top: 15px;

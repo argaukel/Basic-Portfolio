@@ -14,7 +14,7 @@
 
 .portfolioitem h4 {
   position: absolute;
-  bottom: 1em;
+  bottom: 5em;
   background-color: rgba(45, 75, 32, .2);
   /* alpha changes transparency 0-1 */
   width: 100%;
