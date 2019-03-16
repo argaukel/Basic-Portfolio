@@ -1,43 +1,27 @@
-/* Container holding the image and the text */
-/* .container {
+.portfolioitem {
+  width: 300px;
+  height: 300px;
+  float: left;
   position: relative;
-} */
+  background-size: cover;
+  position: relative;
+  margin: 1em;
+  }
 
-/* Bottom right text */
-/* .text-block {
+#portfolio1 {
+ background-image: url("images/IMG_0088.JPEG"); 
+}    
+
+.portfolioitem h4 {
   position: absolute;
-  bottom: 20px;
-  right: 20px; 
-  background-color: black;
-  color: white;
-  padding-left: 20px;
-  padding-right: 20px;
-} */
+  bottom: 1em;
+  background-color: rgba(45, 75, 32, .2);
+  /* alpha changes transparency 0-1 */
+  width: 100%;
+  text-align: center;
+  padding: 1em;
+  font-size: 12px;
+  margin: 0;
+  font-variant: small-caps;
 
-
-.containerBox {
-    position: relative;
-    display: inline-block;
-}
-.text-box {
-    position: absolute;    
-    height: 100%;
-    text-align: center;    
-    width: 100%;
-}
-.text-box:before {
-   content: '';
-   display: inline-block;
-   height: 100%;
-   vertical-align: middle;
-}
-h4 {
-   display: inline-block;
-   font-size: 20px; /*or whatever you want*/
-   color: #FFF;   
-}
-img {
-  display: block;
-  max-width: 100%;
-  height: auto;
 }
