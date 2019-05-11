@@ -49,9 +49,26 @@ header {
 }
 
 nav {
-  margin-top: 10px;
-  font-size: 24px;
+  /* margin-top: 10px;
+  font-size: 24px; */
+  background-color: #b2dfdb;
+  box-shadow: 0px;
   
+}
+
+.sticky {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  top: 0;
+  z-index: 100;
+  border-top: 0;
+}
+
+.nav-wrapper {
+  /* color: #b2dfdb; */
+  box-shadow: 0px;
+
 }
 
 nav a {
